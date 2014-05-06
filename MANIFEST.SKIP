@@ -1,0 +1,19 @@
+# Backup files
+~$
+\.bak$
+(^|/)\.[^/]*\.swp$
+
+# Mercurial and Git
+\.hg/
+\.git/
+\.gitmodules$
+\.gitignore$
+
+# MakeMaker generated stuff
+^MANIFEST\.
+^Makefile$
+^blib/
+^MakeMaker-\d
+
+# Spec
+\.spec$
